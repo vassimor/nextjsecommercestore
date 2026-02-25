@@ -2,9 +2,10 @@
   "name": "nextjsecommercestore",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
+    "dev": "next dev",
     "start": "next start"
   },
   "dependencies": {
@@ -14,7 +15,15 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^10.0.0",
+    "eslint-config-upleveled": "^9.4.7",
+    "prettier": "^3.8.1",
+    "stylelint": "^17.3.0",
+    "stylelint-config-upleveled": "^2.0.5",
     "tailwindcss": "^4",
     "typescript": "5.9.3"
   },
